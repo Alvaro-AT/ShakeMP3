@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="atlc.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_voice"
+        android:icon="@drawable/ic_action_voice"
+        android:title="Control por voz"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_action_list"
+        android:title="Lista de canciones"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Desactivar sensor de proximidad"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:title="Desactivar Shaking"
+        app:showAsAction="never" />
+</menu>
